@@ -31,3 +31,13 @@ Com o Servidor Config você tem um lugar central para gerenciar propriedades ext
 
 > - 1. No initialzr, procurar config server que possivelmente estará dentro do initialzr
 > - 2. Também instalar a dependência actuator.
+
+## Adicionando Spring Cloud a um aplicativo Spring Boot existente([Spring Cloud](https://spring.io/projects/spring-cloud))
+Se você possui um aplicativo Spring Boot existente e deseja adicionar o Spring Cloud a esse aplicativo, a primeira etapa é determinar a versão do Spring Cloud que você deve usar. A versão que você usa em seu aplicativo dependerá da versão do Spring Boot que você está usando.
+
+### - A tabela abaixo descreve qual versão do Spring Cloud mapeia para qual versão do Spring Boot.
+#### Tabela 1. Compatibilidade do Spring Boot do trem de lançamento
+|           2021.0.x - também conhecido como Jubileu                               |              2.6.x, 2.7.x (começando com 2021.0.3)       |
+|          :---:                                     |         :---:                     |
+|              2020.0.x também conhecido como Ilford                                      |        2.4.x, 2.5.x (começando com 2020.0.3)             |  
+|               etc...                                    |         Verificar em: [Spring Cloud](https://spring.io/projects/spring-cloud)  |   
