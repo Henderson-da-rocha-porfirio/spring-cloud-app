@@ -41,3 +41,10 @@ Se você possui um aplicativo Spring Boot existente e deseja adicionar o Spring 
 |          :---:                                     |         :---:                     |
 |              2020.0.x também conhecido como Ilford                                      |        2.4.x, 2.5.x (começando com 2020.0.3)             |  
 |               etc...                                    |         Verificar em: [Spring Cloud](https://spring.io/projects/spring-cloud)  |   
+
+## @EnableConfigServer - Anotação para se trabalhar com Config Server
+> - 1.Deve ser adicionada na classe Main.
+> - 2.Essa anotação tornará toda a aplicação que está em microserviços num servidor de configuraçao(config server)
+> - 3.Ele pode ler as configuraçoes de um repositório centralizado e expõe todas as suas propriedades através de Endpoints Rest.
+> - 4.Configurar application.properties, inclusive com a porta: server.port=8071
+> - 5.Criar uma pasta config em Resources chamada config e colocar as properties correspondentes.
