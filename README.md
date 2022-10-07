@@ -1,6 +1,6 @@
 # CONFIG SERVER: CLOUD-NATIVE APPLICATIONS COM SPRING CLOUD
 
-## gerenciamento de configurações
+## Gerenciamento de configurações
 
 > - 1. Separação de Configs: É a separação das configurações/propriedades dos microsserviços para que essa mesma imagem Docker possa ser implantada em vários ambientes.
 > - 2. Injetar Configs: Processo de injetar as configurações/propriedades que o microsserviço precisava durante a inicialidade do serviço.
