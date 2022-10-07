@@ -7,7 +7,7 @@
 > - 3. Manter Configs: Manter as configurações/propriedades em um repositório centralizado, juntamente com a versão delas.
 
 |           Microserviços =>                                   |              Gerenciamento de Configs        |                  <=    Dados/Repos           |
-|          |-------------|                                     |          |-------------|                     |              |-------------|               |
+|          :---:                                     |         :---:                     |              :---:              |
 |               Contas                                         |         O serviço de Config ler              |              DATABASE                      |
 |               Empréstimos                                    |         todas as configurações ao conectar   |              CENTRAL DE REPOS              |
 |               Cartões                                        |         na central de repositório.           |              File System                   |
